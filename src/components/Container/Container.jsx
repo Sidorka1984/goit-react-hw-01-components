@@ -1,7 +1,8 @@
 import React from "react";
-// import styles from "./Container.css";
+import stales from './Container.css'
 
-const Container ({ children }) => {
-    return <div></div>;
+const Container = ({children }) => {
+    return <div className={stales.Container}>{ children }</div>;
 }
+
 export default Container;
