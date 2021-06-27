@@ -1,0 +1,75 @@
+.Description {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--color-white);
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5),
+    1px 1px 5px rgba(255, 255, 255, 1);
+}
+.Profile {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 10px;
+
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5),
+    1px 1px 5px rgba(255, 255, 255, 1);
+  overflow: hidden;
+  background-color: #f6f8fa;
+}
+.Stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-top: 1px solid var(--color-secondary-text);
+}
+
+.Stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  width: 100%;
+}
+.Stats li:not(:last-child) {
+  border-right: 1px solid var(--color-secondary-text);
+}
+.Location {
+  font-size: 16px;
+  color: var(--color-secondary-text);
+}
+.Label {
+  margin-bottom: 5px;
+
+  color: var(--color-secondary-text);
+}
+
+.Quantity {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
+.Avatar {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+.Tag {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-style: normal;
+  color: var(--color-secondary-text);
+}
+.Name {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
