@@ -1,6 +1,7 @@
 .Description {
   text-align: center;
   padding-top: 20px;
+
   padding-bottom: 20px;
   background-color: var(--color-white);
   box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5),

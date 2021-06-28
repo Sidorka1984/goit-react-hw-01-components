@@ -1,0 +1,54 @@
+.Statistics {
+  text-align: center;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  height: 100%;
+}
+
+.StatList {
+  display: inline-flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.Item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 5px 5px 11px -1px rgba(0, 0, 0, 0.65);
+}
+.Item:first-child {
+  border-radius: 0 0 0 5px;
+}
+.Item:last-child {
+  border-radius: 0 0 5px 0;
+}
+.Item:nth-child(2n) {
+  background-color: rgb(231, 207, 176);
+}
+.Item:nth-child(2n + 1) {
+  background-color: rgb(214, 207, 207);
+}
+
+.Label,
+.Percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin: 0;
+  font-size: 16px;
+  color: secondary-text-color;
+  text-transform: uppercase;
+}
